@@ -1,5 +1,7 @@
 # dmpb
 Minimal static site generator in Perl
+(I think it stands for Damian's Minimal Perl Blog?
+i kinda forgot)
 
 ## Author's Note
 I originally wrote this to familiarize myself with Perl **for fun**.
