@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title>[% post.title %]</title>
+	</head>
+	<body>
+		<h1>[% post.title %]</h1>
+		<p>[% post.author %]</p>
+		<p>[% post.date.ymd %]</p>
+		<ul>
+		[% FOREACH tag = post.tags %]
+		   <li>[% tag %]</li>
+		[% END %]
+		</ul>
+		<p>[% post.content %]</p>
+	</body>
+</html>
