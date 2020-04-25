@@ -56,8 +56,8 @@ Notice the **line break** between the headers and main content.
 dmpb uses the [Template Toolkit](http://template-toolkit.org) for templating.
 
 dmpb searches for the following template files:
-- blog.tt2: The index of all blog entries
-- post.tt2: The template for individual blog posts
+- [blog.tt2](templates/blog.tt2): The index of all blog entries
+- [post.tt2](templates/post.tt2): The template for individual blog posts
 
 ### Configuration
-Configuration settings are stored in the [config.ini] file.
+Configuration settings are stored in the [config.ini](config.ini) file.
